@@ -1,0 +1,41 @@
+.image-post {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-post-bg {
+    background-color: rgba(0, 0, 0, 0.644);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    cursor: zoom-out;
+}
+
+.image-post-content{ 
+    max-width: 1200px;
+    background-color: black;
+    position: relative;
+}
+
+.image-post-content img{
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 120px);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image-post-content h4{
+    color: white;
+    text-align: center
+}
